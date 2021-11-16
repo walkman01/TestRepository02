@@ -1,2 +1,2 @@
 language = "java11"
-run = "Main"
+run = "SpringMvc01Application"
