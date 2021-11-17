@@ -1,4 +1,6 @@
 language = "java11"
 #run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . JavaWorkshop_01/src/main/java/com/example/demo/JavaWorkshop01Application.java JavaWorkshop_01/src/main/java/com/example/demo/controller/HomeController.java JavaWorkshop_01/src/main/java/com/example/demo/model/User.java JavaWorkshop_01/src/test/java/com/example/demo/JavaWorkshop01ApplicationTests.java Main.java"
 
-run = "java -classpath .:/run_dir/junit-4.12.jar:target/dependency/*  com.example.demo.JavaWorkshop01Application"
+#run = "java -classpath .:/run_dir/junit-4.12.jar:target/dependency/*  com.example.demo.JavaWorkshop01Application"
+
+run = "java -classpath .:/run_dir/junit-4.12.jar:target/dependency/*:JavaWorkshop_01/src/main/resources/templates/form.html  com.example.demo.JavaWorkshop01Application"
