@@ -1,8 +1,0 @@
-language = "java11"
-#run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d .  spring-mvc01/src/main/java/com/example/demo/SpringMvc01Application.java spring-mvc01/src/main/java/com/example/demo/controller/HomeController.java spring-mvc01/src/main/java/com/example/demo/model/User.java spring-mvc01/src/test/java/com/example/demo/SpringMvc01ApplicationTests.java"
-
-#run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d .  spring-mvc01/src/main/java/com/example/demo/SpringMvc01Application.java"
-
-#run = "java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* spring-mvc01/src/main/java/com/example/demo/SpringMvc01Application"
-
-run = "java -classpath .:/run_dir/junit-4.12.jar:target/dependency/*  com.example.demo.SpringMvc01Application"
